@@ -1,0 +1,453 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.4;
+    background-color: #FFF;
+    color: #000;
+
+}
+
+
+p {
+    font-size: 1.2em;
+    color: #555;
+
+}
+
+.profile {
+    display: block;
+    margin-top: 1em;
+
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+header {
+    padding-top: 10px;
+
+
+}
+
+footer {
+    margin-top: 5%;
+    padding-top: 2%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-nav {
+    display: none;
+
+}
+
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li {
+    text-align: center;
+    background: #f1f9f9;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 6px 0 6px 0;
+
+}
+
+.main-nav a {
+    width: 90%;
+    display: block;
+    margin: 1% auto;
+    padding: 2% 0;
+    transition: 0.5s;
+    font-size: 1.2em;
+    color: grey;
+
+}
+
+.main-nav a:hover {
+    color: #093a58;
+}
+
+#portfolio {
+    text-transform: uppercase;
+}
+
+img {
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+img {
+    
+    background-color : #e1f2fb;
+    }
+
+
+.img-profile {
+    border: none;
+    border-radius: 100px;
+    padding: 0;
+}
+
+
+.profile,
+.img-profile {
+    margin-top: 20px;
+    margin-bottom: 10%;
+}
+
+.main-content p {
+    padding: 30px;
+    font-size: 1.1em;
+}
+
+
+
+footer p {
+    color: slategrey;
+}
+
+.profile p {
+    font-size: 1.1em;
+    padding: 30px;
+}
+
+h5 {
+    font-size: 1em;
+    color: #706c61;
+
+}
+
+
+/* ---- Layout Containers ---- */
+
+.head-content {
+    background-color:  #e1f2fb;
+}
+
+
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+
+#contact p {
+    padding: 2% 10%;
+    font-size: 1.1em;
+}
+
+#contact h3 {
+    padding: 1% 10%;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #e1f2fb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-section {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 2px solid lightgrey;
+}
+
+.footer-name {
+    padding-left: 20px;
+    width: 50%;
+    text-align: left;
+
+}
+
+.to-top {
+    padding-right: 20px;
+    text-align: right;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.to-top a {
+
+    color: #706c61;
+
+}
+
+.second-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.second-cover {
+    background-color: wheat;
+}
+
+
+
+
+/* ---- Remove default list styles, margins and padding. ---- */
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* ---- Media Queries ---- */
+
+@media only screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+   
+
+
+    img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .head-content {
+        padding-bottom: 15px;
+    }
+
+    .container {
+
+        margin: 0 auto;
+    }
+
+    .img-profile {
+        width: 40%;
+        margin: 5px 20px 0px 5px;
+        order: 1;
+    }
+
+    .profile {
+        display: flex;
+
+    }
+
+
+    .main-nav li {
+        display: inline-block;
+        background: none;
+
+    }
+
+    .main-nav a {
+        font-size: 1.2em;
+        padding: 10px 15px;
+        background-color: #e1f2fb;
+    }
+
+
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-content div {
+        width: 50%;
+        padding: 2%;
+    }
+
+    .second-content {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .second-content div{
+        width: 50%;
+        padding: 2%;
+
+    }
+
+
+    p {
+        font-size: 1.2em;
+        margin-bottom: 1.5em;
+        text-align: left;
+        color: grey;
+
+    }
+
+
+    .col {
+        background-color: white;
+    }
+
+    
+
+    h3 {
+        width: 100%;
+        font-size: 1.9em;
+    }
+
+    #contact p {
+        text-align: center;
+    }
+
+    .to-top {  
+        display: none;
+    }
+
+    .bottom-section {
+        display: flex;
+
+    }
+
+    .footer-name {
+        display: inline-block;
+
+    }
+
+    .footer-nav {
+        display: block;
+        padding-top: 15px;
+        margin-left:40px;
+
+    }
+
+
+    .footer-nav li {
+        display: inline-block;
+        font-size: 1em;
+        padding: 10px 20px;
+        margin-left: 10px;
+    }
+
+    .footer-nav a {
+        color: #706c61;
+    
+    }
+
+    .col-2 iframe {
+        width: 420px;
+        height: 236.25px;
+
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+
+
+    #contact,
+    .bottom-section,
+    .profile,
+    .main-content,
+    .second-content {
+        max-width: 1180px;
+        margin: auto;
+
+    }
+    .img-profile {
+        width: 25%;
+        margin: 5px 20px 10px 5px;
+        order: 1;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+        letter-spacing: 0.15em;
+        margin-left: 30px;
+    }
+
+    header {
+        display: flex;
+        padding: 1%;
+    }
+   
+
+    header h1 {
+        width: 30%;
+        text-align: left;
+    }
+
+    .main-nav {
+        text-align: right;
+        font-size: 1.1em;
+        margin-left: 10px;
+        width: 55%;
+    }
+
+
+    
+    header {
+        position: fixed;
+        background : #e1f2fb;
+        box-shadow: 0 1px 4px rgba(0,0,0,.4);
+        width: 100%;
+        top:0;
+        padding-left: 130px;
+        padding-right: -10px;
+
+    }
+ 
+    .profile {
+        padding-top: 150px;
+
+    }
+    .main-nav li {
+        display: inline-block;
+        font-size: 1em;
+        padding: 5px 10px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-content div {
+        width: 33.3%;
+        padding: 2%;
+    }
+
+    .col-2 iframe {
+        width: 520px;
+        height: 292.5px;
+
+    }
+}
