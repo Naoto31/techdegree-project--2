@@ -173,7 +173,6 @@ h5 {
 
 footer {
     background-color: #e1f2fb;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bottom-section {
@@ -185,7 +184,6 @@ footer {
 
 .footer-name {
     padding-left: 20px;
-    width: 50%;
     text-align: left;
 
 }
@@ -193,7 +191,7 @@ footer {
 .to-top {
     padding-right: 20px;
     text-align: right;
-    width: 50%;
+    width: 80%;
     text-transform: uppercase;
 }
 
@@ -289,6 +287,7 @@ ul {
     .second-content {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center
 
     }
 
@@ -329,6 +328,7 @@ ul {
 
     .bottom-section {
         display: flex;
+        justify-content: space-between;
 
     }
 
@@ -356,13 +356,6 @@ ul {
         color: #706c61;
     
     }
-
-    .col-2 iframe {
-        width: 420px;
-        height: 236.25px;
-
-    }
-
 }
 
 
@@ -418,7 +411,6 @@ ul {
         box-shadow: 0 1px 4px rgba(0,0,0,.4);
         width: 100%;
         top:0;
-        padding-left: 130px;
         padding-right: -10px;
 
     }
@@ -446,8 +438,8 @@ ul {
     }
 
     .col-2 iframe {
-        width: 520px;
-        height: 292.5px;
+        width: 420px;
+        height: 236.25px;
 
     }
 }
