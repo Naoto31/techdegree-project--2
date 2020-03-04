@@ -204,12 +204,20 @@ footer {
 .second-content {
     padding-top: 10px;
     padding-bottom: 10px;
-   
+
+}
+
+.second-content iframe {
+    border-style: outset;
+    border-width: 5px;
+    border-color: #e1f2fb;
+
 }
 
 .second-cover {
     background-color: wheat;
 }
+
 
 
 
@@ -411,7 +419,6 @@ ul {
         box-shadow: 0 1px 4px rgba(0,0,0,.4);
         width: 100%;
         top:0;
-        padding-right: -10px;
 
     }
  
@@ -439,7 +446,7 @@ ul {
 
     .col-2 iframe {
         width: 420px;
-        height: 236.25px;
+        height: 236px;
 
     }
 }
